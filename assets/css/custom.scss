@@ -1,0 +1,236 @@
+/**
+ * LSX Starter Child styles
+ *
+ * @package 	lsx-demo
+ */
+
+// ---------- Mixins ----------
+
+
+@mixin box-shadow($args) {
+	-webkit-box-shadow: $args;
+	-moz-box-shadow: $args;
+	-o-box-shadow: $args;
+	box-shadow: $args;
+}
+
+@mixin text-shadow($args) {
+	-webkit-text-shadow: $args;
+	-moz-text-shadow: $args;
+	-o-text-shadow: $args;
+	text-shadow: $args;
+}
+
+@mixin border-radius($args) {
+	-webkit-border-radius: $args;
+	-moz-border-radius: $args;
+	-o-border-radius: $args;
+	border-radius: $args;
+}
+
+@mixin transition($args...) {
+	-webkit-transition: $args;
+	-moz-transition: $args;
+	-ms-transition: $args;
+	-o-transition: $args;
+	transition: $args;
+}
+
+@mixin transform($args...) {
+	-webkit-transform: $args;
+	-moz-transform: $args;
+	-ms-transform: $args;
+	-o-transform: $args;
+	transform: $args;
+}
+
+
+// ---------- Placeholders: Global ----------
+
+
+%clear-div {
+	&:after {
+		visibility: hidden;
+		display: block;
+		font-size: 0;
+		content: "";
+		clear: both;
+		height: 0;
+	}
+}
+
+
+// ---------- Styles ----------
+
+/* .lsx-block-card .lsx-card-image-wrap img[src$=".svg"] {
+	max-width:90px;
+}
+.extra-top .lsx-card-image-wrap {margin-top:40px!important;}
+.lsx-block-card .lsx-card-image-wrap {
+	background:transparent;
+	margin-top:30px;
+} */
+
+.footer-table tr td {
+	padding-bottom:10px;
+}
+
+.third-party-card .lsx-card-image-square {
+	padding-top:30px;
+}
+.third-party-card .lsx-card-content-wrap .lsx-card-name {
+	margin-top:5px;
+}
+
+.demo-card .lsx-card-image-square a img {
+	max-width:44px!important;
+}
+
+.tilt img {transition:0.4s;}
+.tilt img:hover {
+	transform: rotate(4deg);
+}
+.lsx-banner-logo {
+	margin-bottom:20px;
+}
+.card-link {
+		background: #418ad0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+		padding:10px;
+}
+.card-link a {
+	color:#fff!important;
+}
+.border-radius {
+    border-radius: 4px;
+    display: inline-block;
+}
+.lsx-banner-name {
+	margin-bottom:20px!important;
+}
+
+.lsx-blocks {
+	background-color:#fff;
+}
+.block-section {
+	background-color:#f3f3f3!important;
+}
+.side-block {
+	background:url('/wp-content/uploads/2018/12/GBLandingPageBackLarge.png');
+	padding:30px;
+	color:#fff;
+}
+.side-block h2 {color:#fff;}
+.side-block a {color:#fff!important;}
+
+.block-card {
+		position:relative;
+}
+
+.button-holder {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+	vertical-align:middle;
+}
+
+
+.button-holder:before,
+.button-holder:after {
+    content: '';
+    border-top: 2px solid #E2E1E1;
+    margin: 40px 20px 0 0;
+    flex: 1 0 20px;
+		vertical-align:middle;
+}
+
+.button-holder:after {
+    margin: 40px 0 0 20px;
+		vertical-align:middle;
+}
+
+.white, .white a {
+	color: #fff !important;
+}
+.home-sp img {
+	width:160px;
+}
+.contact-icon {
+	padding-right: 10px;
+	color:#428bca;
+	font-size:18px
+}
+.transparent {
+	background-color:transparent!important;
+}
+.no-mar-top {
+	margin-top:0!important;
+}
+.no-pad-top {
+	padding-top:0!important;
+}
+.no-padding {
+	margin:0!important;
+}
+.no-pad-bot {
+		padding-bottom:0!important;
+}
+.no-mar-bot {
+	margin-bottom:0!important;
+}
+.grey {
+	background-color:#d8d8d8!important;
+}
+.dark {
+	color:#fff!important;
+}
+.lsx-sharing-block, .accordion, .lsx-inline-notice-block, .cta, .team-shortcode {
+	background:#fff;
+}
+.feature-list {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.feature-list li {
+	margin-bottom:10px
+}
+.feature-list li i {
+	color:#0085dd;
+	margin-right:5px
+}
+.list-check {
+	    list-style: none;
+}
+.list-check li {
+	display: flex;
+}
+.list-check li:before {
+	content: '\f058';
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    color: #ffffff;
+	    margin-right: 1em;
+	
+    padding-top: 5px;
+}
+.list-check.blue li:before {
+	color: #418AD0;
+}
+@media screen and (max-width: 600px) {
+	.images-mob {
+	  display: flex !important;
+    flex-direction: column-reverse;
+}
+	.images-mob figure {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 2em;
+}
+}

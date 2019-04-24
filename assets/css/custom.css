@@ -166,5 +166,9 @@
     margin-left: auto !important;
     margin-right: auto !important;
     margin-bottom: 2em; }
-  .container-bg-mobile {
-    object-fit: cover; } }
+  .container-bg-mobile .lsx-container-image-wrap .lsx-container-image {
+    object-fit: cover; }
+  .lsx-wc-my-account-menu-item.lsx-wc-my-account-menu-item-simple > a:after, .lsx-wc-my-account-menu-item.lsx-wc-my-account-menu-item-simple > a span {
+    display: initial; }
+  .lsx-wc-cart-menu-item {
+    display: none; } }

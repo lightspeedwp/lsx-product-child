@@ -173,6 +173,6 @@
   .container-bg-mobile .lsx-container-image-wrap .lsx-container-image {
     object-fit: cover; }
   .lsx-wc-my-account-menu-item.lsx-wc-my-account-menu-item-simple > a:after, .lsx-wc-my-account-menu-item.lsx-wc-my-account-menu-item-simple > a span {
-    display: initial; }
+    display: initial !important; }
   .lsx-wc-cart-menu-item {
-    display: none; } }
+    display: none !important; } }

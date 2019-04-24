@@ -226,11 +226,14 @@
 @media screen and (max-width: 600px) {
 	.images-mob {
 	  display: flex !important;
-    flex-direction: column-reverse;
-}
-	.images-mob figure {
-    margin-left: auto !important;
-    margin-right: auto !important;
-    margin-bottom: 2em;
-}
+		flex-direction: column-reverse;
+	}
+		.images-mob figure {
+		margin-left: auto !important;
+		margin-right: auto !important;
+		margin-bottom: 2em;
+	}
+	.container-bg-mobile {
+		object-fit: cover;
+	}
 }

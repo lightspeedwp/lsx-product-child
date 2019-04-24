@@ -158,6 +158,10 @@
 .list-check.blue li:before {
   color: #418AD0; }
 
+.g-single {
+  padding-top: 2.4rem;
+  padding-bottom: 2.4rem; }
+
 @media screen and (max-width: 600px) {
   .images-mob {
     display: flex !important;

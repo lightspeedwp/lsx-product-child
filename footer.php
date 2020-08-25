@@ -78,7 +78,7 @@
         <p>LightSpeed's products are open-source and published under the GNU General Public Licence V3. To ensure the continuous improvement of our software we use the following awesome tools.</p>
         <div class="tools">
         <a href="https://github.com/lightspeeddevelopment" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Github.png" alt="Github" /></a>
-        <a href="https://travis-ci.com/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Travis.jpg" alt="Travis CI" />
+        <a href="https://travis-ci.com/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Travis.png" alt="Travis CI" />
         <a href="https://www.browserstack.com/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Browserstack.png" alt="BrowerStack" />
         </div>
         </div>

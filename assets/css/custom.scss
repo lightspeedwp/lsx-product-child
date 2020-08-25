@@ -170,6 +170,36 @@
   #footer-widgets {
 	  background:url('/wp-content/uploads/2020/08/FooterBG.png');
   }
+
+  .footer-open-source {
+	text-align:center;
+	background:#162026;
+	color:#999999;
+	padding:15px;
+	font-size:13px;
+}
+.footer-open-source h4 {
+	font-size:14px;
+	font-weight:bold;
+}
+.footer-open-source p {
+	max-width:595px;
+	margin:auto;
+	margin-bottom:20px;
+}
+.footer-open-source .tools {
+	background:#fff;
+	display:inline-block;
+	padding:20px 45px;
+	margin-bottom:20px;
+	border-radius:50px;
+}
+.footer-open-source .tools img {
+	margin:0 15px;
+}
+#footer-widgets {
+	padding:9rem 0 9rem;
+}
   
   @media screen and (max-width:600px) {
 	  .mobile-full {width:100%;padding:0 15px;}

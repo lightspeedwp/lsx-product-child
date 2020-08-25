@@ -1,11 +1,11 @@
 {
-  "name": "lsx-demo",
+  "name": "lsx-product-site",
   "version": "1.0.0",
   "description": "A Starter LSX Child Theme",
   "main": "gulpfile.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lightspeeddevelopment/lsx-demo.git"
+    "url": "git+https://github.com/lightspeeddevelopment/lsx-product-site.git"
   },
   "keywords": [
     "lsx",
@@ -16,9 +16,9 @@
   "author": "LightSpeed",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lightspeeddevelopment/lsx-demo/issues"
+    "url": "https://github.com/lightspeeddevelopment/lsx-product-site/issues"
   },
-  "homepage": "https://github.com/lightspeeddevelopment/lsx-demo#readme",
+  "homepage": "https://github.com/lightspeeddevelopment/lsx-product-site#readme",
   "dependencies": {
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",

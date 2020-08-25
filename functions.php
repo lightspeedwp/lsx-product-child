@@ -2,24 +2,24 @@
 /**
  * LSX Starter Child functions
  *
- * @package 	lsx-demo
+ * @package 	lsx-product-site
  */
 
 /**
  * Sets up theme defaults
  *
- * @package 	lsx-demo
+ * @package 	lsx-product-site
  * @subpackage	setup
  */
 function lsx_sct_child_setup() {
-	load_child_theme_textdomain( 'lsx-demo', get_stylesheet_directory() . '/languages' );
+	load_child_theme_textdomain( 'lsx-product-site', get_stylesheet_directory() . '/languages' );
 }
 add_action( 'after_setup_theme', 'lsx_sct_child_setup', 11 );
 
 /**
  * Enqueues the parent and the child theme styles.
  *
- * @package 	lsx-demo
+ * @package 	lsx-product-site
  * @subpackage	setup
  */
 function lsx_sct_child_scripts() {
@@ -29,8 +29,8 @@ function lsx_sct_child_scripts() {
 	//wp_dequeue_style( 'lsx_font_scheme' );
 	
 	// Google Fonts. Add these lines if your website will use a different font.
-	//wp_enqueue_style( 'lsx-demo-quattrocento-sans', 'https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i' );
+	//wp_enqueue_style( 'lsx-product-site-quattrocento-sans', 'https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i' );
 
-	wp_enqueue_script( 'lsx-demo-scripts', get_stylesheet_directory_uri() . '/assets/js/custom.min.js', array( 'jquery' ) );
+	wp_enqueue_script( 'lsx-product-site-scripts', get_stylesheet_directory_uri() . '/assets/js/custom.min.js', array( 'jquery' ) );
 }
 add_action( 'wp_enqueue_scripts', 'lsx_sct_child_scripts', 11 );

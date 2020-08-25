@@ -1,7 +1,7 @@
 /**
  * LSX Starter Child scripts
  *
- * @package 	lsx-demo
+ * @package 	lsx-product-site
  */
 
 ;(function($, window, document, undefined) {

@@ -6,7 +6,7 @@ gulp.task('default', function() {
 	console.log('gulp compile-css    to compile the custom.scss to custom.css');
 	console.log('gulp compile-js     to compile the custom.js to custom.min.js');
 	console.log('gulp watch          to continue watching the files for changes.');
-	console.log('gulp wordpress-lang to compile the lsx-demo.pot, en_EN.po and en_EN.mo');
+	console.log('gulp wordpress-lang to compile the lsx-product-site.pot, en_EN.po and en_EN.mo');
 });
 
 var sass = require('gulp-sass');
@@ -44,19 +44,19 @@ gulp.task('wordpress-pot', function() {
 	return gulp.src('**/*.php')
 		.pipe(sort())
 		.pipe(wppot({
-			domain: 'lsx-demo',
-			package: 'lsx-demo',
+			domain: 'lsx-product-site',
+			package: 'lsx-product-site',
 			team: 'LightSpeed <webmaster@lsdev.biz>'
 		}))
-		.pipe(gulp.dest('languages/lsx-demo.pot'));
+		.pipe(gulp.dest('languages/lsx-product-site.pot'));
 });
 
 gulp.task('wordpress-po', function() {
 	return gulp.src('**/*.php')
 		.pipe(sort())
 		.pipe(wppot({
-			domain: 'lsx-demo',
-			package: 'lsx-demo',
+			domain: 'lsx-product-site',
+			package: 'lsx-product-site',
 			team: 'LightSpeed <webmaster@lsdev.biz>'
 		}))
 		.pipe(gulp.dest('languages/en_EN.po'));

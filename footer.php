@@ -34,7 +34,7 @@
 								<?php
 									printf(
 										/* Translators: 1: theme name, 2: author name and link */
-										esc_html__( ' | %1$s is a WordPress theme developed by %2$s.', 'lsx' ),
+										esc_html__( ' | %1$s Developed by %2$s.', 'lsx' ),
 										'LSX',
 										'<a href="https://www.lsdev.biz/" rel="nofollow noreferrer noopener" title="LightSpeed WordPress Development - Unlocking the full value of your business, online" rel="author nofollow noopener noreferrer" >LightSpeed</a>'
 									);
@@ -78,8 +78,8 @@
         <p>LightSpeed's products are open-source and published under the GNU General Public Licence V3. To ensure the continuous improvement of our software we use the following awesome tools.</p>
         <div class="tools">
         <a href="https://github.com/lightspeeddevelopment" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Github.png" alt="Github" /></a>
-        <a href="https://travis-ci.com/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Travis.png" alt="Travis CI" />
-        <a href="https://www.browserstack.com/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Browserstack.png" alt="BrowerStack" />
+        <a href="https://travis-ci.org/github/lightspeeddevelopment" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Travis.png" alt="Travis CI" /></a>
+        <a href="https://www.browserstack.com/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Browserstack.png" alt="BrowerStack" /></a>
         </div>
         </div>
 

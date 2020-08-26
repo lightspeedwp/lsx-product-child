@@ -34,7 +34,7 @@
 								<?php
 									printf(
 										/* Translators: 1: theme name, 2: author name and link */
-										esc_html__( ' | %1$s Developed by %2$s.', 'lsx' ),
+										esc_html__( ' | Developed by %2$s.', 'lsx' ),
 										'LSX',
 										'<a href="https://www.lsdev.biz/" rel="nofollow noreferrer noopener" title="LightSpeed WordPress Development - Unlocking the full value of your business, online" rel="author nofollow noopener noreferrer" >LightSpeed</a>'
 									);

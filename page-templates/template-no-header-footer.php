@@ -1,9 +1,16 @@
 <?php
 /**
+ * No Header & Footer Template.
+ *
  * Template Name: No Header & Footer
  * Template Post Type: post, page
+ *
+ * @package    lsx
+ * @subpackage template
  */
 ?>
+
+
 
 <?php lsx_content_wrap_before(); ?>
 

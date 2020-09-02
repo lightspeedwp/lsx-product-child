@@ -1,8 +1,7 @@
 <?php
 /**
  * Template Name: No Header & Footer
- *
- * @package lsx-product-site
+ * Template Post Type: post, page
  */
 ?>
 

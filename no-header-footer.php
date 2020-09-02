@@ -2,7 +2,7 @@
 /**
  * Template Name: No Header & Footer
  *
- * @package lsx
+ * @package lsx-product-site
  */
 ?>
 

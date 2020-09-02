@@ -2,7 +2,7 @@
 /**
  * The template for displaying all pages.
  *
- * @package lsx
+ * @package lsx-product-site
  */
 
 get_header(); ?>

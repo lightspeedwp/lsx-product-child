@@ -1,9 +1,17 @@
-/**
- * LSX Starter Child styles
- *
- * @package 	lsx-product-site
- */
 /** New Styles Begin **/
+.no-show-desktop {
+  display: none;
+}
+
+.learn-arrow {
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -128,45 +136,6 @@
   height: 3px;
 }
 
-#footer-widgets {
-  background: url("/wp-content/uploads/2020/08/FooterBG.png");
-}
-
-.footer-open-source {
-  text-align: center;
-  background: #162026;
-  color: #999999;
-  padding: 15px;
-  font-size: 13px;
-}
-
-.footer-open-source h4 {
-  font-size: 14px;
-  font-weight: bold;
-}
-
-.footer-open-source p {
-  max-width: 595px;
-  margin: auto;
-  margin-bottom: 20px;
-}
-
-.footer-open-source .tools {
-  background: #fff;
-  display: inline-block;
-  padding: 20px 45px;
-  margin-bottom: 20px;
-  border-radius: 50px;
-}
-
-.footer-open-source .tools img {
-  margin: 0 15px;
-}
-
-#footer-widgets {
-  padding: 9rem 0 9rem;
-}
-
 @media screen and (max-width: 600px) {
   .mobile-full {
     width: 100%;
@@ -213,8 +182,11 @@
   .extension-list li {
     padding-left: 0;
   }
-  .footer-open-source .tools img {
+  .no-show-desktop {
     display: block;
+  }
+  .hide-mobile {
+    display: none;
   }
 }
 
